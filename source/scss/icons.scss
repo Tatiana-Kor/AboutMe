@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Icons";
+  src: url("../assets/fonts/fontello.woff2?57110256") format("woff2"),
+    url("../assets/fonts/fontello.woff?57110256") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "Icons";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+}
+
+figure {
+  margin: 0;
+  display: inline-block;
+}
+
+.icon-phone:before {
+  content: "\e800";
+}
+.icon-download:before {
+  content: "\e801";
+}
+.icon-mail-alt:before {
+  content: "\f0e0";
+}
+
+.icon-phone {content: "\e800";}
+.icon-download {content: "\e801";}
+.icon-mail-alt {content: "\f0e0";}
+
+
